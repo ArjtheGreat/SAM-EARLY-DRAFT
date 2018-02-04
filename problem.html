@@ -1,5 +1,18 @@
 <!DOCTYPE html>
 <html>
+     <head>
+      <title>Sports Applied Math</title>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+      <link rel="stylesheet" href="assets/css/main.css" />
+      <!--[if lte IE 9]>
+      <link rel="stylesheet" href="assets/css/ie9.css" />
+      <![endif]-->
+      <!--[if lte IE 8]>
+      <link rel="stylesheet" href="assets/css/ie8.css" />
+      <![endif]-->
+   </head>
 <body>
     <h1> Beginner Problems </h1>
  <p><h1>Problem 1 - Time on the Clock</h1></p><br>
@@ -7,10 +20,11 @@
     <h2>The Texans have 6 minutes and 38 seconds to win the game. Assuming that there is 15 minutes per quarter, how many minutes and seconds has past in the qaurter?</h2>
         <br>
         <br>
-<button onclick="myFunction()">11 minutes, 22 seconds</button>
-<script>
+    <button onclick="myFunction()">11 minutes, 22 seconds</button>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script>
 function myFunction() {
-    alert("Sorry Incorrect");
+   swal("Incorrect!", "You got it wrong", "error");
 }
 </script>
 <br>
@@ -18,7 +32,7 @@ function myFunction() {
 <button onclick="myFruction()">8 minutes 22 seconds</button>
 <script>
 function myFruc() {
-    alert("Correct!! 8 minutes and 22 seconds has past in the quarter, leaving 6 minutes and 38 seconds to WIN!");
+   swal("Correct!! 8 minutes and 22 seconds has past in the quarter, leaving 6 minutes and 38 seconds to WIN!");
 }
 </script>
     <br>
@@ -26,14 +40,14 @@ function myFruc() {
     <button onclick="myFunction()">13 minutes, 22 seconds</button>
 <script>
 function myFunction() {
-    alert("Sorry Incorrect");
+   swal("Incorrect!", "You got it wrong", "error");
     </script>
     <br>
     <br>
     <button onclick="myFunction()">7 minutes 22 seconds</button>
 <script>
 function myFunction() {
-    alert("Sorry Incorrect");
+    swal("Incorrect!", "You got it wrong", "error");
     </script>
     <br>
     <br>
