@@ -24,11 +24,13 @@
             </h2>
             <h3>The Texans scored 38 points! What combination of touchdowns (with extra point) and field goals did the Texans score? </h3>
             <br>
-            <br>
-            <script>      
-            <button onclick="myFunction()">4 touchdowns, 4 fieldgoals</button>
-            <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>   
-                  </script>      
+               <button onclick="myFunction()">4 touchdowns, 3 fieldgoals</button>
+               <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+               <script>
+                  function myFunction() {
+                     swal("Incorrect!", "You got it wrong", "error");
+                  }
+               </script>      
             <br>
             <br>    
             <button onclick="myFructionius('This is what QB Deshaun Watson and kicker Kaiimi Fairbairn scored! A great day for the Houston Offense!')">5 touchdowns, 1 field goal</button>
